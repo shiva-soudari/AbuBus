@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AbuBus</string>
+    <string name="open_sans">nunito-sans</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="bus_booking">Bus Booking</string>
+
+    <string name="book_bus">Book a Bus</string>
+    <string name="input_hint">&#183;&#183;&#183;</string>
+    <string name="search_bus">Search Bus</string>
+    <string name="search_buses">Search Buses</string>
+    <string name="Journey_date">Journey Date</string>
+    <string name="search_city">Search for a city…</string>
+    <string name="bus_type">Bus Type</string>
+    <string name="operator_location"><![CDATA[Operator & Location]]></string>
+    <string name="Opearator">Operator</string>
+    <string name="ac">AC</string>
+    <string name="non_ac">NON AC</string>
+    <string name="seater">SEATER</string>
+    <string name="sleeper">SLEEPER</string>
+    <string name="seats">Seats</string>
+    <string name="filter_by_departure_time">Filter by departure time</string>
+    <string name="powered_by">RedBus</string>
+    <string name="div">|</string>
+
+</resources>

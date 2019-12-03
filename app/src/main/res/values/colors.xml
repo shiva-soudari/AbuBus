@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FA5826</color>
+    <color name="colorPrimaryDark">#F25506</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="gray_97">#F7F7F7</color>
+    <color name="textcolor_hash">#6F6F6F</color>
+    <color name="pink_color">#EF579E</color>
+    <color name="login_hintcolor">#146B76</color>
+    <color name="twitter_bg_color">#50BADA</color>
+    <color name="light_blue_color">#00AAA3</color>
+    <color name="green_clr">#00AC9C</color>
+    <color name="blue_color">#43A9C7</color>
+    <color name="cream_color">#F7F7F7</color>
+    <color name="cream_color_dark">#F1F1F1</color>
+    <color name="light_color_hash">#939393</color>
+    <color name="viewline_color">#C1E6E3</color>
+    <color name="viewline_color_sacncard">#E5E5E5</color>
+    <color name="green_notification_badge">#187975</color>
+    <color name="black_40">#999999</color>
+    <color name="theme_blue">#009196</color>
+    <color name="google_plus_red">#E04A32</color>
+    <color name="light_pink">#F19596</color>
+    <color name="blue">#3B5998</color>
+    <color name="gray_40">#666666</color>
+    <color name="orange_33">#33F15A22</color>
+    <color name="black_90">#DDDDDD</color>
+    <color name="dots_color">#FFD8D8D8</color>
+    <color name="lightashclr">#B5B5B5</color>
+    <color name="ashcolor_bg">#efefef</color>
+    <color name="actnbar_bg">#61c04c</color>
+    <color name="graycolor">#7f7b7b</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_green">#45a71c</color>
+
+    <color name="drkAsh_txtclr"> #595959</color>
+    <color name="blue_bg">#069cfb</color>
+    <color name="drkAsh_bg">#d2d2d2</color>
+    <color name="brown_btnclr">#a92523</color>
+    <color name="unselitems_bg">#d2d2d2</color>
+    <color name="selitems_bg">#48a025</color>
+    <color name="dlvr_vhcl_clr">#6bc049</color>
+    <color name="redclr">#f13f3f</color>
+    <color name="yellowclr">#EEAA23</color>
+    <color name="black">#000000</color>
+
+    <!--post contribution list items colors  -->
+
+    <color name="breadpstry_bg">#32920d</color>
+    <color name="frtsveg_bg">#6bc047</color>
+    <color name="fishplty_bg">#58ad34</color>
+    <color name="cookedfd_bg">#32940b</color>
+    <color name="nonpershbl_bg">#4a982a</color>
+    <color name="bverags_bg">#328211</color>
+
+    <!--dashboard list items colors  -->
+    <color name="db_greenbg1">#47b14d</color>
+    <color name="db_greenbg2">#26902c</color>
+    <color name="db_greenbg3">#308436</color>
+    <color name="db_greenbg4">#21a12a</color>
+
+    <color name="whiteclr">#fffefe</color>
+    <color name="blackclr">#f1150606</color>
+    <color name="grid_bg">#45a71c</color>
+    <color name="greendark">#3e991a</color>
+    <color name="grnwlk_bg">#4ca82b</color>
+    <color name="grid_rwbg">#32920d</color>
+    <color name="gr_bg">#4ca82b</color>
+    <color name="dstnc_bg">#32940b</color>
+    <color name="drkbg_pstcntn1">#32940b</color>
+    <color name="grn_r1" >#32920d</color>
+    <color name="grn_r2" >#6bc047</color>
+    <color name="grn_r3" >#58ad34</color>
+    <color name="grn_r4" >#32940b</color>
+    <color name="drk_img_bck" >#595959</color>
+
+
+    <!-- original colors -->
+
+    <color name="yellow">#fbc406</color>
+    <color name="lite_green">#70c45e</color>
+    <color name="lightgreen">#6bc049</color>
+    <color name="red">#f13f3f</color>
+    <color name="skyblue">#069cfb</color>
+    <color name="green">#6abf4a</color>
+    <color name="dark_green">#3a8e1b</color>
+    <color name="red_clr">#962424</color>
+
+    <color name="no_txt_bg">#f7f7f7</color>
+    <color name="no_txt">#a2a2a2</color>
+    <color name="no_value">#b2b2b2</color>
+    <color name="item_txt">#1c1c1c</color>
+    <color name="light_hashcolor">#E4E4E4</color>
+    <color name="kgs_txt">#565656</color>
+
+    <color name="darkblue">#0667d6</color>
+    <color name="lightblue">#0fb3ff</color>
+    <color name="darkorange">#ffb61e</color>
+    <color name="darkvoilet">#8e23e0</color>
+    <color name="darkgray">#111d2b</color>
+    <color name="darkorenge">#a71f29</color>
+
+
+    <color name="my_cart_clr">#333333</color>
+    <color name="pink_clr">#EF579E</color>
+    <color name="grey_clr">#6F6F6F</color>
+    <color name="light_grey_clr">#959595</color>
+    <color name="rm_clr">#B2B2B2</color>
+    <color name="total_clr">#6F6F6F</color>
+    <color name="checkout_clr">#EF579E</color>
+    <color name="apply_bg_clr">#ECECEC</color>
+    <color name="promo_view_clr">#CCCCCC</color>
+    <color name="bijan_bar_clr">#6F6F6F</color>
+    <color name="login_clr">#EF569E</color>
+    <color name="google_bg_clr">#DD4B39</color>
+    <color name="fb_bg_clr">#3B5998</color>
+    <color name="list_bg_clr">#E1E1E1</color>
+    <color name="dark_grey_clr">#333333</color>
+
+    <color name="curent_lctn_edt_clr">#FCFCFC</color>
+
+    <color name="white_transperant">#FFFFFFFF</color>
+    <color name="black_transperant">#00000000</color>
+
+</resources>
+

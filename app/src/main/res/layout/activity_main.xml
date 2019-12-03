@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/dine_in_white_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="From city">
+
+            <AutoCompleteTextView
+                android:completionThreshold="1"
+                android:id="@+id/etFromCity"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:drawableRight="@drawable/from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="To city">
+
+            <AutoCompleteTextView
+                android:completionThreshold="1"
+                android:id="@+id/etToCity"
+                android:paddingRight="6dp"
+                android:paddingTop="10dp"
+                android:drawableRight="@drawable/to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Journey Date">
+
+        <android.support.design.widget.TextInputEditText
+            android:drawablePadding="5dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="6dp"
+            android:drawableRight="@drawable/calendar_ic"
+            android:id="@+id/txtDoJ"
+            android:clickable="true"
+            android:editable="false"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/txtSearchBus"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:height="40dp"
+            android:gravity="center"
+            android:text="Search Buses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</LinearLayout>

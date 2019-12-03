@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rlCities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_30dp"
+        android:background="@drawable/input_bg">
+
+        <TextView
+            android:id="@+id/tvFromCity"
+            style="@style/my_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            android:text="@string/from"
+            android:textColor="@color/black_40"
+            android:textSize="@dimen/font_size16" />
+
+        <EditText
+            android:id="@+id/etFromCity"
+            style="@style/my_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvFromCity"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:layout_marginTop="@dimen/dimen_8dp"
+
+            android:background="@drawable/input_hint"
+            android:focusable="false"
+            android:inputType="text|textNoSuggestions"
+            android:maxLines="1"
+            android:onClick="searchCity"
+            android:textColor="@color/gray_40"
+            android:textSize="@dimen/font_size18" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/etFromCity"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:background="@color/black_90" />
+
+        <ImageView
+            android:id="@+id/ivShuffle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/etFromCity"
+            android:layout_marginEnd="@dimen/dimen_37dp"
+            android:layout_marginRight="@dimen/dimen_37dp"
+            android:onClick="shuffle"
+            android:src="@drawable/shuffle" />
+
+        <TextView
+            android:id="@+id/tvToCity"
+            style="@style/my_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivShuffle"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:text="@string/to"
+            android:textColor="@color/black_40"
+            android:textSize="@dimen/font_size16" />
+
+        <EditText
+            android:id="@+id/etToCity"
+            style="@style/my_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvToCity"
+            android:layout_marginBottom="@dimen/dimen_12dp"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:background="@drawable/input_hint"
+            android:focusable="false"
+            android:inputType="text|textNoSuggestions"
+            android:maxLines="1"
+            android:onClick="searchCity"
+            android:textColor="@color/gray_40"
+            android:textSize="@dimen/font_size18" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlCities"
+        android:layout_marginBottom="@dimen/dimen_12dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:background="@drawable/input_bg"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/dimen_16dp"
+        android:paddingStart="@dimen/dimen_16dp"
+        android:paddingTop="@dimen/dimen_10dp">
+
+        <TextView
+            style="@style/my_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivShuffle"
+            android:text="@string/Journey_date"
+            android:textColor="@color/black_40"
+            android:textSize="@dimen/font_size16" />
+
+        <EditText
+            android:id="@+id/etJouneryDate"
+            style="@style/my_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvToCity"
+            android:layout_marginBottom="@dimen/dimen_12dp"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:background="@drawable/input_hint"
+            android:drawableRight="@drawable/calander_icon"
+            android:focusable="false"
+            android:inputType="text"
+            android:maxLines="1"
+            android:onClick="showDatePicker"
+            android:textColor="@color/gray_40"
+            android:textSize="@dimen/font_size18" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSearchbus"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_10dp">
+
+        <TextView
+            style="@style/my_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/powered_by"
+            android:textColor="@color/gray_40"
+            android:textSize="@dimen/font_size12" />
+
+        <TextView
+            style="@style/my_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_5dp"
+            android:text="@string/div"
+            android:textColor="@color/gray_40"
+            android:textSize="@dimen/font_size12" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSearchbus"
+        style="@style/my_font_semi_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/orange_33"
+        android:onClick="searchBus"
+        android:text="@string/search_bus"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size18" />
+</RelativeLayout>
